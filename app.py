@@ -3,7 +3,7 @@ import streamlit as st
 from docx import Document
 from pypdf import PdfReader
 
-from langchain.schema import Document as LangchainDocument
+from langchain_core.documents import Document as LangchainDocument
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 from langchain_community.embeddings import HuggingFaceEmbeddings
 from langchain_community.vectorstores import FAISS
