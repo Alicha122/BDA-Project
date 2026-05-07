@@ -50,10 +50,6 @@ with st.sidebar:
 
     st.divider()
 
-    
-
-    st.divider()
-
     st.markdown("### Example Questions")
     st.write("""
     - ทุนประเภท 1 กับ 2 ต่างกันอย่างไร  
