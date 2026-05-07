@@ -1,7 +1,8 @@
-requirements = """streamlit
+streamlit
 pandas
 numpy
 langchain
+langchain-core
 langchain-community
 langchain-text-splitters
 sentence-transformers
@@ -10,9 +11,3 @@ pypdf
 python-docx
 pillow
 torch
-"""
-
-with open("requirements.txt", "w") as f:
-    f.write(requirements)
-
-print("requirements.txt created")
