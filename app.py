@@ -22,12 +22,14 @@ st.set_page_config(
 # ==================================================
 # GROUP INFO (แก้ข้อมูลจริงก่อนส่ง)
 # ==================================================
-GROUP_NO = "BDA_Project2_YourGroupNo"
+GROUP_NO = "BDA_Project2_GroupNo1"
 
 GROUP_MEMBERS = [
-    {"student_id": "65XXXXXXXX", "name": "Your Name"},
-    {"student_id": "65XXXXXXXX", "name": "Member 2"},
-    {"student_id": "65XXXXXXXX", "name": "Member 3"},
+    {"student_id": "6631501120", "name": "Achira Lueablae"},
+    {"student_id": "6631501121", "name": "Aphiwat Chioewvijit"},
+    {"student_id": "6631501122", "name": "Alicha Chanatnawa"},
+    {"student_id": "6631501125", "name": "Araya Mahima"},
+    {"student_id": "6631501130", "name": "Catarina Magdaleno Roquette"},
 ]
 
 
