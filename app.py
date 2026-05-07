@@ -296,46 +296,6 @@ st.markdown(
     unsafe_allow_html=True
 )
 
-st.markdown("""
-<div class="hero-card">
-<h3>🎯 Project Overview</h3>
-<p>
-ระบบนี้ใช้แนวคิด <b>Retrieval-Augmented Generation (RAG)</b> 
-เพื่อค้นคืนข้อมูลจากเอกสาร Dataset ของทุนตำรา MFU แล้วนำข้อมูลที่เกี่ยวข้องมาตอบคำถามผู้ใช้
-</p>
-</div>
-""", unsafe_allow_html=True)
-
-st.write("")
-
-col1, col2, col3 = st.columns(3)
-
-with col1:
-    st.markdown("""
-    <div class="info-card">
-        <div class="metric-title">📄 Dataset</div>
-        <p>PDF, DOCX และ Infographic เกี่ยวกับทุนตำรา MFU</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col2:
-    st.markdown("""
-    <div class="info-card">
-        <div class="metric-title">🧠 AI Concept</div>
-        <p>Document Loading, Text Splitting, Embedding และ FAISS Retrieval</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-with col3:
-    st.markdown("""
-    <div class="info-card">
-        <div class="metric-title">🚀 Deployment</div>
-        <p>พัฒนา Web Application ด้วย Streamlit Cloud</p>
-    </div>
-    """, unsafe_allow_html=True)
-
-st.write("")
-st.divider()
 
 vectorstore = create_vectorstore()
 
