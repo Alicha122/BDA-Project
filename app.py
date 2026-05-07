@@ -50,17 +50,7 @@ with st.sidebar:
 
     st.divider()
 
-    st.markdown("### AI Concept")
-    st.write("""
-    This project applies Retrieval-Augmented Generation (RAG)
-    to answer questions from MFU textbook grant datasets,
-    including:
-    - Grant Type 1
-    - Grant Type 2 (eBook)
-    - Application steps
-    - Evaluation
-    - Copyright
-    """)
+    
 
     st.divider()
 
